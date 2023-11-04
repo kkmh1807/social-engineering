@@ -1,0 +1,154 @@
+.dfoPage {
+  color: #012a4c;
+}
+.dfoHeader {
+  border-bottom: 2px solid #e6e6e6;
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.english {
+  text-decoration: underline !important;
+}
+
+.link {
+  color: black;
+  text-decoration: none;
+  font-family: "Source Sans Pro";
+  font-weight: 600;
+  display: flex;
+  justify-content: space-between;
+  gap: 0.25rem;
+  align-items: center;
+}
+
+.dfoHeaderWrapper {
+  display: flex;
+  margin: 0 -2rem;
+  align-items: center;
+  flex: 1;
+}
+
+.dfoHeaderWrapperInner {
+  z-index: 0;
+  min-height: 6rem;
+  display: flex;
+  flex: 1 0;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.dfoHeaderMenu {
+  display: flex;
+  align-items: baseline;
+  padding: 0 2rem;
+  gap: 2rem;
+}
+
+.footer {
+  background-color: #012a4c;
+  padding: 6rem 0;
+  color: #ffffff;
+  display: flex;
+  bottom: 0;
+
+  width: 100%;
+  text-wrap: wrap;
+}
+
+.links {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+.links:last-child {
+  border-bottom: 1px solid #009ee1;
+}
+
+.footerLink {
+  border-top: 1px solid #009ee1;
+  padding: 1rem 8.2rem 1rem 2rem;
+  text-decoration: none;
+  color: white;
+  font-size: 1.2rem;
+  display: block;
+  position: relative;
+}
+
+.footerLink:hover {
+  color: #009ee1;
+}
+
+.dfoInfo {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 8%;
+}
+
+.form {
+  padding: 4rem;
+  max-width: 50%;
+  margin-bottom: 40px;
+  background-color: #efefef;
+  display: flex;
+  flex-direction: column;
+  color: #012a4c;
+  font-size: 1.2rem;
+}
+
+.select {
+  padding: 1.8rem 2.6rem;
+  outline: 0;
+  margin: 1rem 0;
+  border: 2px solid #005b91;
+  box-sizing: border-box;
+  appearance: none;
+  -webkit-appearance: none;
+  background-image: url('data:image/svg+xml;utf8,<svg fill="012a4c" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/><path d="M0 0h24v24H0z" fill="none"/></svg>'); /* Change the URL to your arrow icon */
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+
+.inputCheckbox {
+  width: 1.5rem;
+  height: 1.5rem;
+  flex-shrink: 0;
+  margin-right: 1rem;
+  border: 2px solid #005b91;
+  box-shadow: none;
+  -webkit-appearance: none;
+  outline: none;
+  background-color: #fff;
+}
+
+.dfoButton {
+  font-size: 1.2rem;
+  transition: background-color 0.25s, border-color 0.25s;
+  text-decoration: none;
+  display: inline-block;
+  padding: 1rem 1.2rem;
+  flex-shrink: 0;
+  border: 2px solid #005b91;
+  background: #005b91;
+  color: #ffffff;
+  cursor: pointer;
+  margin-bottom: 3rem;
+}
+
+.container {
+  margin-top: 4rem;
+  margin-left: 20px;
+}

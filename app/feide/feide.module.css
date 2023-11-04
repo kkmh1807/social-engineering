@@ -1,0 +1,222 @@
+.body {
+  background-color: #c5d4e7;
+  color: #020202;
+  font-family: "Muli", sans-serif;
+  line-height: 1.25rem;
+  overflow: auto;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.boxBody {
+  margin: 1em auto;
+  background-color: white;
+  max-width: 502px;
+}
+
+.feideHeader {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #dbe5f1;
+  align-items: center;
+  padding: 0.7em;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  text-decoration: none;
+  color: black;
+}
+
+.content {
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+}
+
+.feideHeadingOne {
+  color: #333;
+  font-size: 1.875rem;
+  font-weight: 900;
+  line-height: 2.875rem;
+  margin-bottom: 0.5rem;
+  width: 50%;
+}
+
+.feideInfo {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 2px solid #c5d4e7;
+}
+
+.dfoInfo {
+  display: flex;
+  padding: 0.6875rem;
+}
+
+.affiliation {
+  padding: 0.6875rem;
+  border-bottom: 2px solid #c5d4e7;
+}
+
+.affiliationInfo {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.feideForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.feideFormInput {
+  background-color: white;
+  border: 2px solid #606ca5;
+  color: #020202;
+  display: block;
+  font: 400 20px/25px "Muli";
+  padding: 0 1rem;
+  height: 4.125rem;
+  width: 93%;
+}
+
+.passwordField {
+  position: relative;
+}
+
+.showHideButton {
+  background-color: #d3d3d3;
+  height: 2.8875rem;
+  margin: 0.61875rem 0.61875rem 0 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: auto;
+  max-width: 4.38125rem;
+  border: 0;
+  color: #020202;
+  cursor: pointer;
+  display: block;
+  font: 400 1rem/1.25rem "Muli";
+  padding: 0 1rem;
+  text-align: center;
+  transition: background-color 0.5s ease;
+}
+
+.showHideButton:hover {
+  background-color: #6c6c6c;
+  color: #fff;
+  outline: 0;
+}
+
+.loginButton {
+  background-color: #92b9ed;
+  border: 0;
+  color: #020202;
+  cursor: pointer;
+  display: block;
+  font: 400 1rem/1.25rem "Muli";
+  margin-bottom: 1rem;
+  padding: 0 1rem;
+  text-align: center;
+  transition: background-color 0.5s ease;
+  height: 4.125rem;
+  width: 100%;
+}
+
+.loginButton:hover {
+  background-color: #283678;
+  color: #fff;
+  outline: 0;
+}
+
+.forgot {
+  cursor: pointer;
+  font-size: 0.875rem;
+  color: #040404;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.label {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  max-width: 100%;
+}
+
+.externalProvidersButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 1rem;
+  background-color: white;
+  background-size: 1.75rem;
+  background-origin: content-box;
+  font: 400 1rem/1.25rem "Muli";
+  transition: background-color 0.5s ease;
+  white-space: normal;
+  border: 2px solid #606ca5;
+  color: #020202;
+  padding: 0 1rem;
+  height: 4.125rem;
+  width: 100%;
+}
+
+.externalProvidersButton:hover {
+  background-color: #283678;
+  color: #fff;
+  cursor: pointer;
+  border-color: #283678;
+}
+
+.feideFooter {
+  color: #2d384c;
+  display: flex;
+  justify-content: center;
+  background-color: #dbe5f1;
+  align-items: center;
+  padding: 2em;
+}
+
+.siktLink:hover {
+  background-color: #92b9ed;
+}
+
+.panelExpandable {
+  padding: 0.55rem 1rem;
+  border-top: 2px solid #c5d4e7;
+  border-bottom: 2px solid #c5d4e7;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.panelExpandable:hover {
+  border-left: 0;
+  border-right: 0;
+  outline: 2px solid #606ca5;
+  outline-offset: -2px;
+}
+
+.buttonTopRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.error {
+  background-color: #ffd1d1;
+  padding: 1rem 1rem;
+  margin-top: 1rem;
+}
+
+.errorBorder {
+  border: 3px solid #f10606;
+}
